@@ -218,6 +218,9 @@ textarea {
     margin-bottom: 2em; 
   }
     .timeline li {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
       padding: 1em 0; 
     }
     .timeline li:nth-child(even) {
@@ -230,7 +233,7 @@ textarea {
     vertical-align: top;
     position: relative;
     overflow: hidden;
-    margin-left: 2%; 
+    margin-left: 0%; 
   }
 
     .avatar img {
