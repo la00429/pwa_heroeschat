@@ -1,4 +1,7 @@
-navigator.serviceWorker.register (`/sw.js`);
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+        .catch(error => console.error('No se pudo registrar el Service Worker:', error));
+}
 // Referencias de jQuery
 
 var titulo = $('#titulo');
