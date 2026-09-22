@@ -1,14 +1,15 @@
 {
     "short_name": "PWA Chat",
-    "name": "chat para superheroes",
+    "name": "Chat para superhéroes",
     "description": "Aplicación de chat para superhéroes",
     "lang": "es",
     "dir": "ltr",
     "categories": ["social", "communication"],
+    "id": "./index.html",
     "start_url": "./index.html",
     "background_color": "#3498db",
     "theme_color": "#3498db",
-    "display": "landscape",
+    "display": "standalone",
     "orientation": "portrait",
     "scope": "./",
     "screenshots": [

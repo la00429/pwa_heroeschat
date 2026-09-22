@@ -1,10 +1,46 @@
 {
     "short_name": "PWA Chat",
-    "name": "chat para superheroes",
-    "start_url": "index.html",
+    "name": "Chat para superhéroes",
+    "description": "Aplicación de chat para superhéroes",
+    "lang": "es",
+    "dir": "ltr",
+    "categories": ["social", "communication"],
+    "id": "./index.html",
+    "start_url": "./index.html",
     "background_color": "#3498db",
     "theme_color": "#3498db",
     "display": "standalone",
+    "scope": "./",
+    "screenshots": [
+        {
+            "src": "img/icons-ios/apple-launch-750x1334.png",
+            "sizes": "750x1334",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Chat de superhéroes en un teléfono"
+        },
+        {
+            "src": "img/icons-ios/apple-launch-1242x2208.png",
+            "sizes": "1242x2208",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Chat de superhéroes"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Abrir chat",
+            "short_name": "Chat",
+            "url": "./index.html",
+            "icons": [
+                {
+                    "src": "img/icons/icon-96x96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
     "orientation": "portrait",
     "icons": [
         {
